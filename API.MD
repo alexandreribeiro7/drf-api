@@ -14,9 +14,14 @@
 }
 ]
 
+- ### Configuração .env 
+- DJANGO_SETTINGS_MODULE=tamarcado.settings
+- PYTHONPATH=. 
 
+-------------------------------
+
+- ### EndPoints
 - Detalhar agendamento: GET /agendamentos/<id>/
-- ...
 
 - Criar agendamento: POST /agendamentos/
 

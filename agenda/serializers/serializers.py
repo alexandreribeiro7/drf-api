@@ -1,7 +1,7 @@
 from django.utils import timezone
 from rest_framework import serializers
 
-from agenda.models import Agendamento
+from agenda.models.models import Agendamento
 
 class AgendamentoSerializer(serializers.ModelSerializer):
     class Meta:
