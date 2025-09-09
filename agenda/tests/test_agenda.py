@@ -3,6 +3,8 @@ import json
 from datetime import datetime, timezone
 from django.test import TestCase
 from rest_framework.test import APIClient
+from django.contrib.auth.models import User
+
 
 from agenda.models.models import Agendamento
 
@@ -20,18 +22,21 @@ class TestListagemAgendamentos(TestCase):
         
     def test_listagem_de_agendamentos_criados(self):
         Agendamento.objects.create(
+            prestador = User.objects.create_user(username='admin', password='admin123'),
             data_horario=datetime(2022, 3, 15, tzinfo=timezone.utc),
-            nome_cliente='Cliente 1',
+            nome_cliente='admin',
             email_cliente='teste@gmail.com',
             telefone_cliente='123456789',
         )
 class TestCriacaoAgendamento(TestCase):
             def setUp(self):
                 self.client = APIClient()
+                self.prestador = User.objects.create_user(username='admin', password='admin123')
 
             def test_criar_agendamento(self):
                 agendamento_request_data = {
-                    'data_horario': '2025-12-15T00:00:00Z',
+                    'prestador': 1,
+                    'data_horario': '2025-12-13T08:00:00Z',
                     'nome_cliente': 'Cliente 1',
                     'email_cliente': 'teste@gmail.com',
                     'telefone_cliente': '123456789',
@@ -78,3 +83,19 @@ class TestCriacaoAgendamento(TestCase):
                 response = self.client.post('/api/agendamentos/', agendamento_request_data, format='json')
                 # Supondo que duplicados não são permitidos
                 self.assertIn(response.status_code, [400, 409])
+
+
+from unittest import mock
+class TestGetHorarios(TestCase):
+    def setUp(self):
+        self.client = APIClient()
+        
+    @mock.patch("agenda.libs.brasil_api.is_feriado", return_value=True)
+    def test_quando_data_horario_e_feriado_retorna_vazia(self, _):
+        response = self.client.get('/api/horarios/?data=2022-01-01')
+        self.assertEqual(response.json(), [])
+
+    @mock.patch("agenda.libs.brasil_api.is_feriado", return_value=False)
+    def test_quando_data_horario_retorna_lista(self, _):
+        response = self.client.get('/api/horarios/?data=2022-02-01')
+        self.assertNotEqual(response.json(), [])
