@@ -1,0 +1,8 @@
+[INFO] 2025-10-01 23:19:00,053 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-01 23:20:04,538 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-10-01 23:20:04,785 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-01 23:20:34,150 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/libs/brasil_api.py changed, reloading.
+[INFO] 2025-10-01 23:20:34,376 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-01 23:20:44,646 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/libs/brasil_api.py changed, reloading.
+[INFO] 2025-10-01 23:20:44,878 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-01 23:21:56,339 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.

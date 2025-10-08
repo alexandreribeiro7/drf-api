@@ -9,7 +9,7 @@ from rest_framework import permissions
 from django.contrib.auth.models import User
 
 from agenda.models.models import Agendamento
-from agenda.serializers.serializers import AgendamentoSerializer, PrestadorSerializer
+from agenda.serializers.serializers import AgendamentoSerializer, CriarEnderecoParaPrestadorSerializer, PrestadorSerializer, EndereçoSerializer
 from agenda.utils import get_horarios_disponiveis
 
 
@@ -22,11 +22,13 @@ class IsOwnerDrCreateOnly(permissions.BasePermission):
             return True
         return False
     
+    
 class IsPrestador(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
         if obj.prestador == request.user:
             return True
         return False
+
 
 class AgendamentoDetail(generics.RetrieveUpdateDestroyAPIView): # /api/agendamentos/<pk>/
     serializer_class = AgendamentoSerializer
@@ -36,10 +38,12 @@ class AgendamentoDetail(generics.RetrieveUpdateDestroyAPIView): # /api/agendamen
         username = self.request.query_params.get('username', None)
         return Agendamento.objects.filter(prestador__username=username)
     
+    
 class AgendamentoList(generics.ListCreateAPIView): # /api/agendamentos/<pk>/
     permission_classes = [IsPrestador]
     queryset = Agendamento.objects.all()
     serializer_class = AgendamentoSerializer
+    
     
 class PrestadorList(generics.ListAPIView):
     serializer_class = PrestadorSerializer
@@ -49,6 +53,16 @@ class PrestadorList(generics.ListAPIView):
         if user.is_authenticated:
             return User.objects.all() # Retorna se o usuário for autenticado
         return User.objects.none()
+    
+    
+@api_view(['POST'])
+def prestador_endereco(request, pk):
+    prestador = get_object_or_404(User, pk=pk)
+    serializer = CriarEnderecoParaPrestadorSerializer(data=request.data, context={'prestador': prestador})
+    if serializer.is_valid():
+        endereco = serializer.save()
+        return Response(EndereçoSerializer(endereco).data, status=201)
+    return Response(serializer.errors, status=400)
         
         
 @api_view(http_method_names=['GET'])
