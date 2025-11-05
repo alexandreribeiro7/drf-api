@@ -11,3 +11,8 @@ LOGGING = {
         }
     }
 }
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = '0.0.0.0'
+EMAIL_PORT = 1025

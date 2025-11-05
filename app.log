@@ -131,3 +131,209 @@ NotImplementedError: `create()` must be implemented.
 [INFO] 2025-10-07 02:31:15,756 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/serializers/serializers.py changed, reloading.
 [INFO] 2025-10-07 02:31:15,974 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
 [WARNING] 2025-10-07 02:31:30,687 django.request (log.py:253) - Bad Request: /api/prestadores/1/enderecos/
+[INFO] 2025-10-27 22:10:04,683 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:10:21,931 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:10:22,156 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:10:59,403 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:10:59,649 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:11:20,892 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:11:21,119 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:11:51,410 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:11:51,648 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:11:59,851 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:12:00,082 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:12:04,268 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:12:04,509 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:12:44,821 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:12:45,051 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:14:13,605 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:15:15,997 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:15:16,233 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:15:27,491 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:15:27,742 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[WARNING] 2025-10-27 22:15:57,680 django.request (log.py:253) - Forbidden: /api/prestadores/
+[WARNING] 2025-10-27 22:16:11,951 django.request (log.py:253) - Forbidden: /api/prestadores/
+[WARNING] 2025-10-27 22:16:27,894 django.request (log.py:253) - Forbidden: /api/prestadores/
+[WARNING] 2025-10-27 22:16:34,554 django.request (log.py:253) - Forbidden: /api/prestadores/
+[WARNING] 2025-10-27 22:17:14,071 django.request (log.py:253) - Bad Request: /api/prestadores/1/enderecos/
+[WARNING] 2025-10-27 22:17:42,496 django.request (log.py:253) - Forbidden: /api/prestadores/
+[WARNING] 2025-10-27 22:17:50,170 django.request (log.py:253) - Bad Request: /api/agendamentos/
+[WARNING] 2025-10-27 22:18:07,867 django.request (log.py:253) - Bad Request: /api/prestadores/1/enderecos/
+[INFO] 2025-10-27 22:19:38,059 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:19:38,288 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:19:43,494 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:19:43,725 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[WARNING] 2025-10-27 22:19:47,431 django.request (log.py:253) - Forbidden: /api/prestadores/
+[INFO] 2025-10-27 22:19:56,009 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:19:56,253 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:20:14,513 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:20:14,744 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:25:07,130 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:25:07,361 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:28:06,254 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:28:06,502 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:30:43,319 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:30:43,558 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:31:08,854 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:31:09,090 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[ERROR] 2025-10-27 22:31:38,812 django.request (log.py:253) - Internal Server Error: /api/prestadores/
+Traceback (most recent call last):
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/agenda/views/views.py", line 67, in relatorio_prestadores
+    agendamento[prestador["nome"]],
+                ~~~~~~~~~^^^^^^^^
+KeyError: 'nome'
+[INFO] 2025-10-27 22:32:59,767 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:32:59,991 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-27 22:33:47,357 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-27 22:33:47,604 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:42:54,056 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:43:56,456 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/urls.py changed, reloading.
+[INFO] 2025-10-30 20:43:56,679 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[ERROR] 2025-10-30 20:44:30,841 django.request (log.py:253) - Internal Server Error: /api/prestadores/
+Traceback (most recent call last):
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/venv/lib/python3.12/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dev/Área de trabalho/drf-api/agenda/views/views.py", line 59, in get_relatorio_prestadores
+    result = gera_relatorio_prestadores_csv.delay()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'delay'
+[INFO] 2025-10-30 20:45:11,220 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:45:11,445 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:45:14,619 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:45:14,839 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:45:22,022 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:45:22,239 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:45:27,372 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:45:27,594 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:45:41,809 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:45:42,042 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:47:43,008 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/celery.py changed, reloading.
+[INFO] 2025-10-30 20:47:43,256 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:50:47,292 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/celery.py changed, reloading.
+[INFO] 2025-10-30 20:50:47,537 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:51:03,839 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/__init__.py changed, reloading.
+[INFO] 2025-10-30 20:51:04,124 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:51:24,399 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/celery.py changed, reloading.
+[INFO] 2025-10-30 20:51:24,676 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:53:28,557 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/celery.py changed, reloading.
+[INFO] 2025-10-30 20:53:28,853 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:56:26,938 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:56:27,243 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:56:30,436 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:56:30,715 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:58:09,526 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:58:09,827 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 20:59:41,416 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 20:59:41,717 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 21:01:13,305 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-10-30 21:01:13,592 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-10-30 21:02:05,001 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/views/views.py changed, reloading.
+[INFO] 2025-10-30 21:02:05,274 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:18:40,340 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:21:51,539 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 21:21:51,873 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:24:06,859 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 21:24:07,163 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:26:46,137 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 21:26:46,439 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:26:47,626 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 21:26:47,915 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:36:19,945 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 21:36:20,260 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:36:39,531 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/celery.py changed, reloading.
+[INFO] 2025-11-04 21:36:39,847 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:40:00,954 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 21:43:44,160 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 21:58:12,610 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 21:58:12,926 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:07:26,595 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 22:07:26,893 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:08:10,283 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 22:08:10,570 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:11:24,779 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 22:11:25,094 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:12:48,650 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 22:12:48,937 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:14:19,512 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 22:14:19,805 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:15:55,512 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 22:15:55,816 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:16:18,157 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/dev.py changed, reloading.
+[INFO] 2025-11-04 22:16:18,460 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:16:30,702 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/dev.py changed, reloading.
+[INFO] 2025-11-04 22:16:30,989 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:17:03,381 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/dev.py changed, reloading.
+[INFO] 2025-11-04 22:17:03,685 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:17:16,946 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 22:17:17,237 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:30:52,085 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 22:30:52,379 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:43:53,408 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 22:43:53,704 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:44:38,203 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 22:44:38,502 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:56:16,077 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 22:56:16,395 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:59:04,402 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 22:59:04,714 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 22:59:52,365 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 23:02:34,372 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 23:02:34,672 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 23:04:32,381 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 23:04:32,664 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 23:06:57,652 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/base.py changed, reloading.
+[INFO] 2025-11-04 23:06:57,970 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 23:11:37,400 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/tamarcado/settings/dev.py changed, reloading.
+[INFO] 2025-11-04 23:11:37,694 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 23:23:43,049 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 23:23:43,335 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader
+[INFO] 2025-11-04 23:28:54,910 django.utils.autoreload (autoreload.py:265) - /home/dev/Área de trabalho/drf-api/agenda/tasks.py changed, reloading.
+[INFO] 2025-11-04 23:28:55,195 django.utils.autoreload (autoreload.py:667) - Watching for file changes with StatReloader

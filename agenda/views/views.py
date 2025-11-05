@@ -1,7 +1,8 @@
+import csv
 from datetime import datetime
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import get_object_or_404
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import mixins, generics
@@ -10,6 +11,7 @@ from django.contrib.auth.models import User
 
 from agenda.models.models import Agendamento
 from agenda.serializers.serializers import AgendamentoSerializer, CriarEnderecoParaPrestadorSerializer, PrestadorSerializer, EndereçoSerializer
+from agenda.tasks import gera_relatorio_prestadores_csv
 from agenda.utils import get_horarios_disponiveis
 
 
@@ -45,14 +47,19 @@ class AgendamentoList(generics.ListCreateAPIView): # /api/agendamentos/<pk>/
     serializer_class = AgendamentoSerializer
     
     
-class PrestadorList(generics.ListAPIView):
-    serializer_class = PrestadorSerializer
+
     
-    def get_queryset(self):
-        user = self.request.user
-        if user.is_authenticated:
-            return User.objects.all() # Retorna se o usuário for autenticado
-        return User.objects.none()
+@api_view(http_method_names=['GET'])
+@permission_classes([permissions.IsAuthenticated])
+def get_relatorio_prestadores(request):
+    
+    if request.query_params.get('formato') == "csv":
+        result = gera_relatorio_prestadores_csv.delay()
+        return Response({"task_id": result.task_id})
+    else:
+        prestadores = User.objects.all()
+        serializer = PrestadorSerializer(prestadores, many=True)
+        return Response(serializer.data)
     
     
 @api_view(['POST'])
@@ -78,3 +85,12 @@ def get_horarios(request):
         
     horarios_disponiveis = sorted(list(get_horarios_disponiveis(data)))
     return JsonResponse(horarios_disponiveis, safe=False)
+
+
+class PrestadorList(generics.ListAPIView):
+    """
+    Lista os prestadores (User) com o serializer PrestadorSerializer.
+    """
+    queryset = User.objects.all()
+    serializer_class = PrestadorSerializer
+    permission_classes = [permissions.AllowAny]
