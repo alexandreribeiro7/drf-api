@@ -14,5 +14,5 @@ LOGGING = {
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = '0.0.0.0'
-EMAIL_PORT = 1025
+EMAIL_HOST = os.environ.get("EMAIL_HOST", '0.0.0.0')
+EMAIL_PORT = os.environ.get("EMAIL_PORT", 1025)

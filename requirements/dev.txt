@@ -4,3 +4,5 @@ coverage==7.10.6
 pytest==8.4.1
 pytest-cov==6.3.0
 pytest-django==4.11.1
+celery>=5.2.7
+redis>=4.6.0
